@@ -1,0 +1,17 @@
+*.so
+*.save
+*.c
+*.pyx
+*.pyc
+*.sage.py
+*_sage.py
+!hadamard.pyx
+!centermod.pyx
+*.sublime-project
+*.sublime-workspace
+*_stick.csv
+*_relations
+*.christine
+trees/food.txt
+__pycache__
+
