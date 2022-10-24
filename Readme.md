@@ -21,3 +21,6 @@ It is built on top of the implementation of the Biasse-van Vredendaal algorithm 
 2. Run ```sage trees_generation.sage``` to generate trees.
 3. Run ```sage testrelations.sage``` to compute class group and relation matrices for subfields.
 4. Run ```sage clgp_verify.sage d_1 d_2 ... d_n --log-zeta-res z --class-number h``` to verify result of computation. Here z is the residue of Dedekind zeta function at 1. This value can be computed using [Hecke](https://www.thofma.com/Hecke.jl/dev/), see examples in ''experiments'' folder.
+
+# Limitations
+* Currently only prime $d_1, ..., d_n$ where $d_i \equiv 1 \bmod 4$ are supported. The output for $d_i \equiv 3 \bmod 4$ contains extra factors and thus partial.
